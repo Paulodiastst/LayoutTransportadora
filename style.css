@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+html,body{
+  height: 100%;
+}
+
+.container{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+clear{
+  clear: both;
+}
+
+header{
+  width: 100%;
+  height: 95vh;
+  min-height: 800px;
+  padding: 40px 2%;
+  background-image: url(./img/bg9.jpg);
+  background-size: cover;
+}
+
+header nav{
+  float: right;
+}
+
+header nav.desktop-menu ul {
+  list-style: none;
+}
+
+header nav.desktop-menu li {
+  float: left;
+  padding: 0 20px;
+}
+
+header nav.desktop-menu li a{
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  transition: 0.5s;
+}
+
+header nav.desktop-menu li a:hover{
+  color: #ff703d;
+}
+
+header .logo {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  background-image: url(./img/logo.png);
+  background: cover;
+  float: left;
+  top: -30px;
+  box-shadow: 0 0 1em #232323;
+}
+
+.chamada1{
+  max-width: 600px;
+  float: right;
+  margin: 200px 150px;
+}
+
+.chamada1 h4{
+  font-weight: 200;
+  color: white;
+}
+
+.chamada1 h2{
+  font-weight: 300;
+  font-size: 40px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.chamada1 h3{
+  font-weight: 800;
+  font-size: 40px;
+  color: orangered;
+  text-transform: uppercase;
+}
+
+.chamada1 p{
+  font-size: 15px;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.chamada1 button{
+  padding: 10px 20px;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  background: #fed24d;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.chamada1 button:hover{
+  background: #df4e1d;
+  color: white;
+}
+
+section.sessao1{
+  width: 100%;
+  background: #ff703d;
+  padding: 0 2%;
+  height: 400px;
+}
+
+section.sessao1 .container{
+  width: 1500px;
+  height: calc(100% + 30px);
+}
+
+.texto-sessao1{
+  float: left;
+  width: 50%;
+  position: relative;
+  left: 55px;
+  margin-top: 60px;
+  padding-left: 80px;
+  color: #192123;
+}
+
+.texto-sessao1 h2{
+  font-size: 26px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.texto-sessao1 p{
+  margin-top: 20px;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.texto-sessao1 ul{
+  font-size: 15px;
+  list-style-position: outside;
+  padding-left: 15px;
+}
+
+.texto-sessao1 ul li{
+  width: 100%;
+  margin-top: 8px;
+}
+
+.btn1-texto{
+  background: #192123;
+  width: 165px;
+  height: 44px;
+  font-size: 13px;
+  color: white;
+  margin-top: 30px;
+  text-align: center;
+  line-height: 44px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.device-sessao1{
+  float: left;
+  width: 40%;
+  height: 60%;
+  top: 70px;
+  position: relative; 
+  background: url(./img/logistica1.png);  
+}
+
+.sessao2{
+  padding-left: 2%;
+  padding-right: 2%;
+  background: white;
+  text-align: center;
+}
+
+.sessao2 .container{
+  max-width: 1000px;
+}
+
+.sessao2 h2{
+  color: #192123;
+  font-weight: 600;
+  margin-top: 50px;
+  text-transform: uppercase;
+}
+
+.sessao2 p{
+  margin-top: 30px;
+  max-width: 900px;
+  display: inline-block;
+}
+
+.sessao2 img{
+  position: relative;
+  top: 50px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.sessao3{
+  width: 100%;
+}
+
+.part1{
+  color: #192123;
+  float: left;
+  width: 50%;
+  padding: 140px 0 90px 0;
+  background: #ff703d;
+}
+
+.wrapper-part1{
+  max-width: 600px;
+  float: right;
+  padding: 0 30px;
+}
+
+.part1 h2{
+  font-weight: 600;
+  font-style: italic;
+  font-size: 23px;
+}
+
+.part1 p{
+  font-size: 15px;
+  line-height: 28px;
+  margin-top: 10px;
+}
+
+.part2{
+  float: left;
+  width: 50%;
+  padding: 140px 0 90px 0;
+  background: white;
+}
+
+.sobre-diretor{
+  float: left;
+  max-width: 600px;
+  padding-left: 30px;
+}
+
+.titulo-diretor{
+  float: left:
+}
+
+.titulo-diretor h2{
+  color: #232323;
+  font-weight: 400;
+  font-size: 21;
+  padding-right: 20px;
+}
+
+.titulo-diretor P{
+  font-size: 13px;
+  color: #232323;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.titulo-diretor .img-diretor{
+  float: left;
+  width: 40px;
+  height: 40px;
+  background: url(./img/diretor.png);
+  background-size: 100% 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.texto-diretor{
+  float: left;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.texto-diretor p{
+  color: #232323;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.slider-bullets{
+  width: 100%;
+  float: left;
+  padding-left: 30px;
+  margin-top: 12px;  
+}
+
+.slider-bullets span{
+  width: 16px;
+  height: 16px;
+  float: left;
+  margin-right: 8px;
+  cursor: pointer;
+  border-radius: 8px;
+  background: #9999;
+}
+
+
+section.sessao4{
+  background: #df4e1d;
+  padding: 100px 0;
+}
+
+.form{  
+  float: right;
+  width: 50%;
+  color: #192123;
+  margin-top: 10px;
+}
+
+.form h2{
+  font-size: 23px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.form p{
+  font-size: 15px;
+  font-weight: 400;
+  max-width: 400px;
+  padding-right: 10px;
+}
+
+.form form{
+  margin-top: 15px
+}
+
+.form form input[type="text"]{
+  width: 90%;
+  max-width: 480px;
+  margin-top: 8px;
+  height: 58px;
+  padding-left: 10px;
+  line-height: 58px;
+  border: none;
+  border-radius: 20px;
+}
+
+.form form textarea{
+  width: 90%;
+  margin-top: 8px;
+  max-width: 480px;
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+  height: 160px;
+}
+
+.form form input[type=submit]{
+  border: 0;
+  background: #192123;
+  width: 165px;
+  height: 44px;
+  font-size: 13px;
+  color: white;
+  cursor: pointer;
+  margin-top: 15px;
+  border-radius: 30px;
+}
+
+.map-wrapper{   
+  height: 50%;
+  width: 50%;
+  padding: 0 10px;
+  color: #192123;
+  margin-top: 400px;
+}
+
+
+.map-wrapper2{
+  margin-top: 10px;
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;    
+}
+
+.map{
+  width: 100%;
+  height: 100%;
+  background: white;
+  border: 5px solid rgb(200, 200, 200);
+}
+
+footer{
+  padding: 40px 2%;
+  background: #192123;
+  color: white;
+}
+
+footer p:nth-last-of-type(1){
+  float: left;
+  font-size: 14px;
+}
+
+footer p:nth-last-of-type(2){
+  float: right;
+  font-size: 14px; 
+}
+
